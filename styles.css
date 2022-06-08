@@ -4,58 +4,126 @@
   text-align: center;
 }
 
-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 17%;
-    padding-right: 17%  ;
+section,
+footer {
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+h2 {
+  margin-bottom: 20px;
+}
+/*styles for header part*/
 
 header li {
   display: inline-block;
+  padding: 27px 20px;
 }
 
-/* TODO; add hover and active styles */
 header a {
-    color: #828282;
-
+  color: #828282;
+  text-decoration: none;
 }
 
-h1{
-    text-align: left;
+header a:hover {
+  color: #070707;
+}
+
+hr {
+  width: 67%;
+  background-color: #828282;
+}
+
+h1 {
+  text-align: left;
+  margin-top: -88px;
+  font-size: 48px;
+}
+
+/*styles for first screen section*/
+
+#first-screen img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/*styles for About section*/
+#about p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+/*styles for Skills  section*/
+.starRating {
+  margin-top: 60px;
 }
 
 .starRating li {
   display: inline;
 }
 
-.programms li {
+.programms > li {
   display: inline-block;
+  margin-top: 50px;
+  padding-left: 46px;
+  padding-right: 46px;
 }
+
+.programms img {
+  margin-bottom: 25px;
+}
+
+/*styles for POrtfolio section*/
+
+#portfolio img {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+#portfolio,
+#about {
+  background-color: #f6f6f6;
+}
+
+#portfolio h2 {
+  margin-bottom: -20px;
+}
+
+#portfolio p {
+  text-decoration: underline #070707;
+}
+
+/*styles for Footer part*/
 
 footer li {
   display: inline-block;
-  padding-inline-start: 0px;
+  /* padding-inline-start: 0px; */
+  padding: 0px 25px;
 }
 
 button {
   background-color: #070707;
   color: #ffffff;
-  height: 38px;
-  width: 166.46078491210938px;
+  height: 44px;
+  width: 180px;
   left: 0px;
   top: 0px;
-  border-radius: 20px;
-
+  border-radius: 25px;
+  margin: 30px;
+  margin-top: 60px;
+  font-weight: 600;
 }
 
-#portfolio img{
-    display: inline-block;
+#goodBye {
+  padding-top: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
 }
-
-#portfolio, #about {
-    background-color: #F6F6F6;
-}
-
-
-
